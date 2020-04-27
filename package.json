@@ -1,4 +1,5 @@
 {
+  "homepage": "http://womencancode.github.io/swipeydoo"
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "dependencies": {
