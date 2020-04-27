@@ -1,7 +1,11 @@
 {
-  "homepage": "http://womencancode.github.io/swipeydoo"
+  "homepage": "http://womencancode.github.io/swipeydoo",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
+  "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+  },
   "dependencies": {
     "expo": "^25.0.0",
     "jsx-control-statements": "^3.2.8",
